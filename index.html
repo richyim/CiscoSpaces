@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cisco Spaces 3D Map</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>Cisco Spaces 3D Map</h1>
+  <label>
+    Region:
+    <div id="regionDropdown" class="dropdown">
+      <div class="dropbtn">Select a region</div>
+      <div id="regionOptions" class="dropdown-content">
+        <div data-value="APJC">APJC</div>
+        <div data-value="EMEA">EMEA</div>
+        <div data-value="US">US</div>
+      </div>
+    </div>
+  </label>
+  <br>
+  <label>
+    City:
+    <div id="cityDropdown" class="dropdown">
+      <div class="dropbtn" id="citySelect">Select a city</div>
+      <div id="cityOptions" class="dropdown-content">
+        <!-- City options will be populated here -->
+      </div>
+    </div>
+  </label>
+  <br>
+  <a href="#" id="linkButton">Go to Link</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
