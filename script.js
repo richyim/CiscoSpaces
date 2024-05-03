@@ -25,13 +25,13 @@ window.addEventListener('DOMContentLoaded', () => {
       'BDLK09',
       'BDLK10',
       'BDLK11',
-      'BUD01',
       'CPH06',
       'DBI03',
       'DLF1',
       'FKF3',
       'PAR03',
-      'STK03'
+      'STK03',
+      'WLSN01'
     ],
     'US': [
       'ATL11',
